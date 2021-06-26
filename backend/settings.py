@@ -8,6 +8,7 @@ env = environ.Env(
     # set casting, default value
     DEBUG=(bool, False),
     USE_AMAZON_S3=(bool, True),
+    ENABLE_SENDING_EMAILS=(bool, True),
 )
 
 # reading .env file
@@ -245,3 +246,8 @@ DOCUMENTATION_PATH_NAME = 'docs'
 MODELS_FOR_LOGGING = (
     # 'users',
 )
+
+# Sendinblue
+SENDINBLUE_API_KEY = env('SENDINBLUE_API_KEY')
+# control the sending of emails
+ENABLE_SENDING_EMAILS = env('ENABLE_SENDING_EMAILS')
