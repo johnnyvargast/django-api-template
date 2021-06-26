@@ -95,3 +95,18 @@ See also: #456, #789
 
 For more details you can review [this article](http://udacity.github.io/git-styleguide/) or [this one](https://www.conventionalcommits.org/en/v1.0.0/).
 
+
+#
+### Command executed to install the libraries used in this project
+```sh
+pip install django==3.2.4
+pip install django-environ
+pip install boto3
+pip install django-storages
+pip install djangorestframework
+pip install djangorestframework-jsonapi
+pip install django-filter
+pip install drf-yasg
+pip install djangorestframework-simplejwt
+pip install django-cleanup
+```
