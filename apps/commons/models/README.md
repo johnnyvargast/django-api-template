@@ -3,7 +3,6 @@
 from django.db import models
 
 from apps.commons.models import BaseModel
-from apps.commons.utils import UploadTo
 
 
 class Project(BaseModel):
