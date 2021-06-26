@@ -2,11 +2,8 @@
 ```sh
 from django.db import models
 
-from apps.administrations.models import Tenant
-from apps.commons.models import BaseModel, Address
+from apps.commons.models import BaseModel
 from apps.commons.utils import UploadTo
-from apps.jobs.constants import JobPaymentType
-from apps.jobs.models import Company
 
 
 class Project(BaseModel):
